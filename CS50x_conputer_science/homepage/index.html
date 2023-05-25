@@ -1,0 +1,144 @@
+<!DOCTYPE html lang="en">
+<html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width intial-scale=1.0">
+            <title> HOME | TP</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+            <link href="css/reset.css" rel="stylesheet">
+            <link href="css/base.css" rel="stylesheet">
+            <link href="css/cabecalho.css" rel="stylesheet">
+            <link href="css/chamada.css" rel="stylesheet">
+            <link href="css/destaques.css" rel="stylesheet">
+
+            <link href="css/diferenciais.css" rel="stylesheet">
+            <link href="css/sobre.css" rel="stylesheet">
+            <link href="css/planos.css" rel="stylesheet">
+            <link href="css/contato.css" rel="stylesheet">
+            <link href="css/institucional.css" rel="stylesheet">
+            <link href="css/rodape.css" rel="stylesheet">
+
+
+
+        </head>
+
+        <body>
+            <header class="container cabecalho">
+               <a href="/index.html" class ="title"> TP </a>
+                <nav class="cabecalho__navegacao">
+                    <ul>
+                        <li class="cabecalho__link"><a href="/about.html">About CS50's</a></li>
+                        <li class="cabecalho__link"><a href="/hobbies.html">Hobbies</a></li>
+                        <li class="cabecalho__link"><a href="/contact.html">Contact</a></li>
+                    </ul>
+
+                </nav>
+            </header>
+
+            <main>
+                <section class="container chamada">
+                    <h1 class="chamada__titulo">TIAGO PASSAURA WEBPAGE</h1>
+                    <p class="chamada__texto">This is a webpage for <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">CS50's</a> problem set 8</p>
+                    <!-- <a class="chamada__botao botao" href="/about.html">About CS50's</a> -->
+                    <button type="button" class="btn btn-outline-secondary chamada__botao botao"><a href="/about.html">About CS50's</a></button>
+                </section>
+
+                <section class="destaques container">
+                    <h2 class="destaques__titulo">Destaques</h2>
+                    <a href="img/airplane.jpg"></a>
+                        <figure class="destaques__painel">
+                            <img src="img/airplane.jpg" alt="Airplane cockpit" class="destaques__painel-imagem">
+                            <figcaption class="destaques__painel-texto">Last fly of Tiago Passaura</figcaption>
+                        </figure>
+
+                    <a href="/hobbies.html" class="destaques__botao botao">Read about Tiago Passaura hobbies></a>
+                </section>
+
+                <section class="diferenciais container">
+                    <ul class="diferenciais__lista">
+                        <li class="diferenciais__item diferenciais__item--tempo">
+                            <h2 class="item__titulo">Hobbies</h2>
+                            <p class="item__texto">Tiago's hobbies includes flying and reading</p>
+                        </li>
+                        <li class="diferenciais__item diferenciais__item--foco">
+                            <h2 class="item__titulo">Work</h2>
+                            <p class="item__texto">Aiplane pilot starting to work with software development</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="sobre container">
+                    <div class="sobre__conteudo">
+                        <h2 class="sobre__titulo">About</h2>
+                        <p class="sobre__texto">Tiago Passaura is a airplane pilot starting in the world of <strong class="sobre__texto--destaque">softawer development</strong>!</p>
+                        <p class="sobre__texto">
+                            Tiago has experience with the following programing languages:
+                        </p>
+                        <ul class="languages">
+                            <li class="language"><a href="#">C++</a></li>
+                            <li class="language"><a href="#">Python</a></li>
+                            <li class="language"><a href="#">HTML</a></li>
+                            <li class="language"><a href="#">CSS</a></li>
+                            <li class="language"><a href="#">Java Script</a></li>
+                            <li class="language"><a href="#">Node js</a></li>
+                        </ul>
+
+                    </div>
+                    <img src="img/programing.png" alt="Sobre a Apeperia" class="sobre__imagem">
+                </section>
+
+                <section class="planos container">
+                    <h2 class="planos__titulo">Find more about</h2>
+                    <ul class="planos__cartoes">
+                        <li class="cartao cartao--start">
+                            <h3 class="cartao__titulo">C++</h3>
+                            <article class="cartao__conteudo">
+
+                                <p class="cartao__texto">- Developed by Bjarne Stroustrup</p>
+                                <p class="cartao__texto">- High level of control </p>
+                                <p class="cartao__texto">- Cross-platform language</p>
+                                <a href="https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170" class="cartao__botao cartao__botao--start botao">More</a>
+                            </article>
+                        </li>
+                        <li class="cartao cartao--ultra">
+                            <h3 class="cartao__titulo">Python</h3>
+                            <article class="cartao__conteudo">
+                                <p class="cartao__texto">- Friendly & Easy to Learn</p>
+                                <p class="cartao__texto">- Open-source</p>
+                                <p class="cartao__texto">- Community-contributed modules allow for endless possibilities.</p>
+                                <a href="https://wiki.python.org/moin/FrontPage" class="cartao__botao cartao__botao--ultra botao">More</a>
+                            </article>
+                        </li>
+                        <li class="cartao cartao--mega">
+                            <h3 class="cartao__titulo">JavaScript</h3>
+                            <article class="cartao__conteudo">
+                                <p class="cartao__texto">- Implement complex features on web pages</p>
+                                <p class="cartao__texto">-  Mobile apps</p>
+                                <p class="cartao__texto">- Game development</p>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="cartao__botao cartao__botao--mega botao">More</a>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+
+
+            </main>
+
+            <footer class="rodape container">
+                <a href="/index.html" class ="title"> TP </a>
+                <ul class="rodape__social">
+                    <li><a href="https://facebook.com/tiagopassaura" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/tiagopassaura/" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do twitter"></a></li>
+                </ul>
+                <nav>
+                    <ul class="rodape__navegacao">
+                        <li class="cabecalho__link"><a href="/about.html">About CS50's</a></li>
+                        <li class="cabecalho__link"><a href="/hobbies.html">Hobbies</a></li>
+                        <li class="cabecalho__link"><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </body>
+        </html>
