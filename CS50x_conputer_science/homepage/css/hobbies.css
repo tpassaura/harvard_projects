@@ -1,0 +1,20 @@
+.hobbies{
+    text-align:center;
+    padding: 1rem;
+    background-color: #F7F4F4
+}
+.hobbiesTitle{
+    padding :1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+
+}
+.hobbiesContent{
+    padding: 0.5rem;
+
+}
+.hobbiesImg{
+   width: 30rem;
+   padding: 1rem;
+}

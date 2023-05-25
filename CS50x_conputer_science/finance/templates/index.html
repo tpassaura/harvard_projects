@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+        <tr>
+            <th class="tableHead">Symbol</th>
+            <th class="tableHead" >Shares</th>
+            <th class="tableHead" >Price</th>
+            <th class="tableHead" >Total</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in database %}
+            <tr>
+                <td class="tableData">{{ row["symbol"] }}</td>
+                <td class="tableData">{{ row["shares"] }}</td>
+                <td class="tableData">{{ row["price"] | usd }}</td>
+                <td class="tableData">{{ row["total"] | usd }}</td>
+                <td></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Acount Balance:</th>
+                <th>{{cash | usd}}</th>
+                <th></th>
+            </tr>
+        </tfoot>
+
+    </table>
+{% endblock %}
