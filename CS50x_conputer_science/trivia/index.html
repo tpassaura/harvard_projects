@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Wich is harry potter's house in hogwarts</h3>
+                <button type="button" class="housesNames">Slytherin</button>
+                <button type="button" class="housesNames">Gryffindor</button>
+                <button type="button" class="housesNames">Ravenclaw</button>
+                <button type="button" class="housesNames">Hufflepuff</button>
+
+                <h4 id="validationText" ></h4>
+            </div>
+
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What position does Harry play on his house Quidditch team?</h3>
+                <input type="text" id="awnser" value="">
+                <button type="submit" id="submit">Check Answer</button>
+                <h4 id="validationText2" ></h4>
+
+            </div>
+        </div>
+    <script src="main.js"></script>
+    </body>
+
+</html>

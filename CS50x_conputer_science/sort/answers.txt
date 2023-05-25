@@ -1,0 +1,13 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It took much longer to sort random50000 than to sort sorted50000.
+
+sort2 uses: Merge Sort
+
+How do you know?: The time to sort the random50000 and the sorted50000 was faster than the orthers ans almost the same.
+
+sort3 uses: Selection Sort
+
+How do you know?: The time to sort random50000 and sorted50000 was the same but it was slow.
+.c
+.
